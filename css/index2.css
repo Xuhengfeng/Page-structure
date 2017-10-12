@@ -1,0 +1,71 @@
+.container {
+  overflow: hidden;
+  width: 1200px;
+  margin: 0 auto; }
+
+a {
+  display: block;
+  cursor: pointer; }
+
+img {
+  vertical-align: top; }
+
+.ad {
+  position: relative;
+  margin-top: -152px; }
+  .ad a {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    padding: 10px;
+    border-radius: 50%;
+    border: 1px solid red;
+    background: url("../images/sprite_login.png") no-repeat -14px -3px;
+    cursor: pointer; }
+
+.nav {
+  position: relative;
+  background: #ccc; }
+  .nav .nav-lt li, .nav .nav-rt li {
+    float: left;
+    padding: 0 10px;
+    line-height: 32px; }
+  .nav .nav-lt li {
+    margin-left: 30px; }
+
+.hide-box {
+  position: absolute;
+  top: 32px;
+  height: 500px;
+  width: 100%;
+  background: red;
+  z-index: 100;
+  display: none; }
+
+.banner {
+  position: relative;
+  width: 100%;
+  height: 480px;
+  overflow: hidden;
+  z-index: 10; }
+  .banner .img {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%); }
+  .banner .container {
+    position: relative;
+    z-index: 55; }
+    .banner .container .memu-server {
+      position: relative;
+      width: 150px;
+      overflow: hidden;
+      background: red;
+      z-index: 56; }
+      .banner .container .memu-server .memu-hd {
+        position: relative;
+        margin-top: -32px;
+        line-height: 32px;
+        background: green;
+        z-index: 99999; }
+
+/*# sourceMappingURL=index2.css.map */
